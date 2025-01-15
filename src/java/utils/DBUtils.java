@@ -10,7 +10,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 
-public class MyConnection {
+public class DBUtils {
 
     private static final String DB_NAME="Car_Dealership";
     private static final String USER_NAME="sa";
@@ -25,7 +25,7 @@ public class MyConnection {
     
     public static void main(String[] args) {
         try {
-            MyConnection mc = new MyConnection();
+            DBUtils mc = new DBUtils();
         } catch (Exception e) {
         }
     }
